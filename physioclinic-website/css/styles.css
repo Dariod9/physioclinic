@@ -10879,7 +10879,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: transparent;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -10913,7 +10913,8 @@ p {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border: none;
-    background-color: #0c689d;
+    background-color: transparent;
+    visibility: hidden;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -10927,7 +10928,8 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color:black;
+    background-color: #0c689d;
+    visibility: visible;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -10945,13 +10947,13 @@ p {
 }
 header.masthead {
   padding-top: 10.5rem;
-  padding-bottom: 6rem;
+  padding-bottom: 400rem;
   text-align: center;
   color:#0a98b4;
   background-image: url("../assets/img/physioclinic_capa.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: center right;
   background-size: cover;
 }
 header.masthead .masthead-subheading {
